@@ -1,12 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Post 1",
-      "author": "rickyurvina",
-      "image": "https://source.unsplash.com/random/200x200?sig=1"
-    },
-    {
       "id": 2,
       "title": "Post 2",
       "author": "rickyurvina",
@@ -122,16 +116,6 @@
     }
   ],
   "comments": [
-    {
-      "id": 1,
-      "body": "Comment 1 for Post 1",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "Comment 2 for Post 1",
-      "postId": 1
-    },
     {
       "id": 3,
       "body": "Comment 1 for Post 2",

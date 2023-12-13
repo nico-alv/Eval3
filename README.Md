@@ -8,16 +8,10 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 
 ## Instalación
 
-1. Clona este repositorio o descarga el código.
-
-    ```bash
-    git clone https://github.com/rickyurvinaUCN/Prueba3IWM
-    ```
-
 2. Navega al directorio del proyecto.
 
     ```bash
-    cd Prueba3IWM
+    cd backend
     ```
 
 3. Instala las dependencias.
@@ -31,10 +25,11 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 1. Inicia JSON Server.
 
     ```bash
-    json-server --watch posts.json
+    json-server --watch posts.json --host=IP
     ```
+2. Reemplazar IP con la direccion local donde json-server está escuchando.
 
-2. JSON Server se ejecutará en `http://localhost:3000`.
+3. JSON Server se ejecutará en `http://IP:3000`.
 
 ## Rutas disponibles
 
@@ -42,3 +37,32 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 - **Comentarios:** `http://localhost:3000/comments`
 
 Puedes realizar solicitudes GET, POST, PUT y DELETE a estas rutas para interactuar con los datos simulados.
+
+#### Mobile
+Luego, abrir otra terminal en la raiz del proyecto y ejecutar:
+
+```bash
+cd .\mobile\
+```
+
+Instalar dependencias guardadas en package.json.
+
+```bash
+npm install
+```
+
+En App.js, cambiar 192.168.222.132 por la IP local en la que el servidor de json-server está escuchando.
+
+```
+const baseURL = 'http://192.168.222.132:8000/api/profile';
+                        ^^^^^^^^^^^
+```
+
+
+Arrancar el proyecto mobile.
+
+```bash
+npm run android
+```
+
+----
