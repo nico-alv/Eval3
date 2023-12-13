@@ -1,0 +1,156 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "author": "davidaraya",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 5,
+      "title": "Post 5",
+      "author": "davidaraya",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 6,
+      "title": "Post 6",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 7,
+      "title": "Post 7",
+      "author": "davidaraya",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 8,
+      "title": "Post 8",
+      "author": "marceloc",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 9,
+      "title": "Post 9",
+      "author": "marceloc",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 10,
+      "title": "Post 10",
+      "author": "marceloc",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 11,
+      "title": "Post 11",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 12,
+      "title": "Post 12",
+      "author": "marcossilva",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 13,
+      "title": "Post 13",
+      "author": "marcossilva",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 14,
+      "title": "Post 14",
+      "author": "marcossilva",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 15,
+      "title": "Post 15",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 16,
+      "title": "Post 16",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 17,
+      "title": "Post 17",
+      "author": "rickyurvina",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 18,
+      "title": "Post 18",
+      "author": "invitado",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 19,
+      "title": "Post 19",
+      "author": "invitado",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    },
+    {
+      "id": 20,
+      "title": "Post 20",
+      "author": "invitado",
+      "image": "https://source.unsplash.com/random/200x200?sig=1"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Comment 1 for Post 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Comment 2 for Post 1",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "Comment 1 for Post 2",
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "body": "Comment 2 for Post 2",
+      "postId": 2
+    },
+    {
+      "id": 75,
+      "body": "Comment 3 for Post 20",
+      "postId": 20
+    },
+    {
+      "id": 76,
+      "body": "Comment 4 for Post 20",
+      "postId": 20
+    }
+  ]
+}
